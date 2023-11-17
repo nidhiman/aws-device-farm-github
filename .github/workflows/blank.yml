@@ -28,7 +28,7 @@ jobs:
         with:
           run-settings-json: |
             {
-              "name": "GitHubAction-${{ github.workflow }}_${{ github.run_id }}_${{ github.run_attempt }}"
+              "name": "GitHubAction-${{ github.workflow }}_${{ github.run_id }}_${{ github.run_attempt }}",
               "projectArn": "Device Farm Workshop",
               "appArn": "aws-devicefarm-sample-app.apk",
               "devicePoolArn": "Top Devices",
