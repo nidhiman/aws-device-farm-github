@@ -1,5 +1,5 @@
 name: AWS Device Farm Automated Test for Mobile App
-
+ 
 on:
   push:
     branches: [ "main" ]
